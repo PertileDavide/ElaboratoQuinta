@@ -11,12 +11,12 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     </head>
     <style>
-		.centra{
-			position:absolute;
-            top:50%;left:50%;
-            transform:translate(-50%,-47%);
-            color:white;
-		}
+	.centra{
+		position:absolute;
+            	top:50%;
+            	left:50%;
+            	transform:translate(-50%,-47%);
+	}
         .responsive{
             width:33.33%;
             display:inline-block;
@@ -24,28 +24,28 @@
         .keys{
             font-size:20px;
         }
-		@media (max-width: 1000px){
-			.centra{
-				transform:translate(-50%,-30%);
-			}
+	@media (max-width: 1000px){
+		.centra{
+			transform:translate(-50%,-30%);
 		}
-		@media (max-width: 750px){
-			.centra{
-				transform:translate(-50%,-20%);
-			}
-            .keys{
-                font-size:15px;
-            }
+	}
+	@media (max-width: 750px){
+		.centra{
+			transform:translate(-50%,-20%);
 		}
-		@media (max-width: 500px){
-			.centra{
-				transform:translate(-50%,-5%);
-			}
-            .keys{
-                font-size:10px;
-            }
+        	.keys{
+               		font-size:15px;
+            	}
+	}
+	@media (max-width: 500px){
+		.centra{
+			transform:translate(-50%,-5%);
 		}
-	</style>
+        	.keys{
+                	font-size:10px;
+            	}
+	}
+    </style>
     <body bgcolor="black">
         <div class="scroll-up-btn">
             <i class="fas fa-angle-up"></i>
