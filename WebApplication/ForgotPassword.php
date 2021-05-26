@@ -65,9 +65,9 @@
     <style>
 		.centra{
 			position:absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%,-47%);
+            		top:50%;
+            		left:50%;
+            		transform:translate(-50%,-47%);
 		}
 		@media (max-width: 1000px){
 			.centra{
