@@ -75,7 +75,7 @@
 
                     $to=$email;
                     $subject="Email Verification";
-                    $message="<h1>ACTION REQUIRED TO ACTIVATE YOUR ACCOUNT</h1><br><a href='https://pertile4465.altervista.org/NonDefinitivo/verify.php?vkey=$vkey'>Register Account</a><br><br> ";
+                    $message="<h1>ACTION REQUIRED TO ACTIVATE YOUR ACCOUNT</h1><br><a href='https://pertile4465.altervista.org/ElaboratoFinale/verify.php?vkey=$vkey'>Register Account</a><br><br> ";
                     $headers="From: official.techsoftware@gmail.com \r\n";
                     $headers.="MIME-Version:1.0"."\r\n";
                     $headers.="Content-type:text/html;charset=UTF-8"."\r\n";
@@ -107,9 +107,9 @@
     <style>
 		.centra{
 			position:absolute;
-            top:50%;
-            left:50%;
-            transform:translate(-50%,-47%);
+            		top:50%;
+            		left:50%;
+            		transform:translate(-50%,-47%);
 		}
 		@media (max-width: 1000px){
 			.centra{
