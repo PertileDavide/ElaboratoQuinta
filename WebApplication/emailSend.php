@@ -101,7 +101,7 @@
                 if($textToExpose==0)
                     echo "<h1 class='centra'>SORRY, BUT WE CAN'T FORWARD THE E-MAIL<br><span style='color:orange;'>TRY TO CHECK IF YOUR DATA ARE CORRECT</span></h1>";
                 if($textToExpose==1)
-                    echo "<h1 class='centra'>THE MAIL IS BEEN SENT <span style='color:green;'>CORRECTLY</span></h1>";
+                    echo "<h1 class='centra'>THE MAIL HAS BEEN SENT <span style='color:green;'>CORRECTLY</span></h1>";
                 if($textToExpose==2)
                     echo "<h1 class='centra'>YOU CAN'T SEND EMAIL BECAUSE <span style='color:#00ffff;'>YOU'RE NOT LOGGED</span></h1>";
             ?>
